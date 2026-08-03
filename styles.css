@@ -68,7 +68,7 @@ p {
 }
 
 main {
-  padding: 3rem 0 4rem 0;
+  padding: 3rem 0 6rem 0;
 }
 
 /* ---------- Nav ---------- */
@@ -288,11 +288,74 @@ main {
 }
 
 .timeline ul.detail-list li {
-  padding: 0 0 0.25rem 0;
+  padding: 0 0 0.55rem 0;
+  line-height: 1.55;
+}
+
+.timeline ul.detail-list li:last-child {
+  padding-bottom: 0;
 }
 
 .timeline ul.detail-list li::before {
   content: none;
+}
+
+/* Entries that only show a title + meta line (no detail list) get extra
+   breathing room since there's no bullet content to fill the space */
+.timeline li.entry-condensed {
+  padding-bottom: 2.6rem;
+}
+
+.timeline li.entry-condensed .entry-title {
+  margin-bottom: 0.3rem;
+}
+
+.timeline li.entry-condensed .entry-meta {
+  margin-bottom: 0;
+}
+
+/* When a condensed entry also has a detail list beneath it, the list
+   itself already provides separation, so dial the extra padding back down */
+.timeline li.entry-condensed.has-detail {
+  padding-bottom: 1.8rem;
+}
+
+/* ---------- Resume download callout ---------- */
+
+.resume-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background-color: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 0.9rem 1.3rem;
+  margin: 0 0 1.6rem 0;
+}
+
+.resume-cta p {
+  margin: 0;
+  color: var(--color-text-soft);
+  font-size: 0.95rem;
+}
+
+.resume-cta a.btn {
+  display: inline-block;
+  font-family: "Trebuchet MS", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 0.88rem;
+  color: var(--color-bg);
+  background-color: var(--color-accent-3);
+  padding: 0.55rem 1.1rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.resume-cta a.btn:hover {
+  opacity: 0.9;
 }
 
 /* ---------- Achievements year list ---------- */
