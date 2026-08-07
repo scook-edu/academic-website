@@ -12,9 +12,9 @@
   --color-text:      #1a1a1a;   /* near-black body text */
   --color-text-soft: #55524d;   /* warm gray, secondary text */
   --color-heading:   #111111;  /* black headings */
-  --color-accent:    #9a4d2e;  /* light-touch terracotta accent — links, meta, timeline dots */
-  --color-accent-2:  #9a4d2e;  /* same accent, used for callout labels/border */
-  --color-accent-3:  #7a3a22;  /* darker terracotta, hover states / buttons */
+  --color-accent:    #7e4f3a;  /* light-touch terracotta accent — links, meta, timeline dots */
+  --color-accent-2:  #7e4f3a;  /* same accent, used for callout labels/border */
+  --color-accent-3:  #654030;  /* darker terracotta, hover states / buttons */
   --color-nav-bg:    #111111;  /* black nav background */
   --color-nav-text:  #ffffff;   /* white text on nav */
 
