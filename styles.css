@@ -6,8 +6,8 @@
 :root {
   /* Mostly black/white/gray, with one muted accent used sparingly for
      links, timeline markers, and small labels */
-  --color-bg:        #ffffff;   /* white */
-  --color-bg-alt:    #f6f6f4;   /* faint off-white, for cards/sections */
+  --color-bg:        #f7f3f1;   /* warm off-white, gentle terracotta tint */
+  --color-bg-alt:    #ece5e1;   /* warm pale taupe, for cards/sections */
   --color-border:    #111111;  /* black hairline border */
   --color-text:      #1a1a1a;   /* near-black body text */
   --color-text-soft: #55524d;   /* warm gray, secondary text */
